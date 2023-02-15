@@ -1,0 +1,53 @@
+.editOption {
+  color: blue;
+  cursor: pointer;
+}
+.editOption:hover {
+  color: brown;
+}
+
+.deleteOption {
+  color: red;
+  cursor: pointer;
+}
+
+.taskCard {
+  animation: fadeIn 2s;
+  width: auto;
+  margin: 0.625rem 0.938rem 0.625rem 0.938rem;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.taskCard .taskCheckBoxStatus {
+  margin-left: 15%;
+}
+
+.row .noTaskAvailable {
+  background-color: lightslategrey;
+  color: white;
+  text-align: center;
+  width: 19.375rem;
+}
+@media only screen and (min-width: 576px) {
+  .row .noTaskAvailable {
+    margin: 9.375rem auto auto auto;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .row .noTaskAvailable {
+    margin: 1.375rem auto auto auto;
+  }
+}
+.row .addTaskButton {
+  margin: 5% auto auto auto;
+}
+.row .addTaskOption {
+  color: green;
+  cursor: pointer;
+}/*# sourceMappingURL=Task.css.map */
