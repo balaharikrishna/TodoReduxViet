@@ -18,7 +18,7 @@ const List = ({show,changeShowState,getEditListId,getListId,changeShowDelete,cle
   const [activeList,setActiveList] = useState<number>(localData ? localData[0]?.id : "");
 
   useEffect(()=>{
-    if(activeList==undefined || activeList == null){
+    if(activeList==undefined || activeList == null || activeList==0){
       setActiveList(localData ? localData[0]?.id : "")
     }
   })

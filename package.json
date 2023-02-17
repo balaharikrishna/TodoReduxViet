@@ -1,11 +1,11 @@
 {
   "name": "todoapp",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+   "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
