@@ -1,0 +1,73 @@
+.submitTasksHeading {
+    color: white;
+    text-align: center;
+}
+
+.completedTasksButton {
+    background-color: lightseagreen !important;
+    color: white !important;
+}
+
+.submittedTasksBody {
+    overflow-y: auto;
+    height: 22.188rem;
+    background-color: aliceblue
+}
+
+#submittedTasksBody::-webkit-scrollbar-track {
+    background-color: aliceblue;
+}
+
+#submittedTasksBody::-webkit-scrollbar {
+    width: 12px;
+}
+
+#submittedTasksBody::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: lightseagreen;
+}
+
+.taskCardSubmitted {
+    margin-bottom: 0.625rem;
+}
+
+.completedTasksHeader {
+    background-color: lightseagreen;
+    display: grid !important;
+    grid-template-columns: 90% 10%;
+    text-align: center;
+    padding: 0 0.625rem;
+
+    .completedTasksHeading {
+        color: white;
+    }
+}
+
+.noTasksSubmitted {
+    align-items: center;
+    background-color: lightslategrey !important;
+    color: white !important;
+    text-align: center;
+    width: 25rem !important;
+    margin: auto;
+    margin-top: 25% !important;
+}
+
+.submitTasksMainHeading {
+    
+    .submittedPriorityHeading {
+        float: right;
+    }
+
+    .submittedTasksActions {
+       float: right;
+    }
+    
+
+    color: white;
+    font-weight: bolder;
+    font-size: 80%;
+}
+.modal-footerCompletedTasks{
+    background-color: paleturquoise !important;
+}

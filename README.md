@@ -1,2 +1,2 @@
 # TodoReduxViet
-Created a Todo Application using Redux and Viet
+Created a Todo Application using Redux ,Typescript  and Viet.
